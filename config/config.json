@@ -1,0 +1,17 @@
+{
+
+  "model_name" : "HLS",
+
+  "Argoverse_Forecasting" : {
+    "dataset_path" : "/home/dooseop/DATASET/argoverse/argoverse-forecasting/",
+    "preproc_dataset_path" : "./ArgoverseDataset/preprocessed_dataset",
+    "voxel_dir" : "./ArgoverseDataset/preprocessed_dataset/voxels"
+  },
+
+  "Nuscenes" : {
+    "dataset_path": "/home/dooseop/DATASET/nuscenes/",
+    "preproc_dataset_path" : "./NuscenesDataset/preprocessed_dataset",
+    "voxel_dir" : "./NuscenesDataset/preprocessed_dataset/voxels"
+  }
+}
+
