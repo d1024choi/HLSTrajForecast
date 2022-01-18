@@ -1,0 +1,22 @@
+python train.py \
+--dataset_type 'argoverse' \
+--exp_id 0 \
+--gpu_num 0 \
+--multi_gpu 1 \
+--num_cores 8 \
+--num_epochs 50 \
+--batch_size 8 \
+--future_horizon_seconds 3 \
+--target_sample_period 5 \
+--num_max_paths 10 \
+--best_k 5 \
+--alpha 1.0 \
+--beta 0.5 \
+--gamma 0.01 \
+--learning_rate 0.0005 \
+--path_resol 1.0 \
+--apply_cyclic_schedule 1 \
+--ngh_dist_thr 5 \
+--is_train_dis 1 \
+--gan_prior_prob 0.5 \
+--limit_range 50
