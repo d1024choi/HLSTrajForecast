@@ -10,7 +10,7 @@
 
 
 ## Train and Test New Models
-To train the model from scratch, run the followings. The parameters of the trained models will be stored in the folder ***saved_models***.
+To train the model from scratch, run the followings. The network parameters of the trained models will be stored in the folder ***saved_models***.
 ```sh
 $ sh nuscenes_train.sh
 $ sh argoverse_train.sh
