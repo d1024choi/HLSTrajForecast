@@ -260,6 +260,9 @@ class Map:
             coords_ego = trans_pc(ego_from_global, coords.T).T
             vec = (coords_ego[min_idx, :2] - coords_ego[min_idx - 1, :2]).reshape(1, 2)
             lane_yaw = calc_yaw_from_points(vec)[0]
+            # TODO 
+            # if (lane_yaw < 0):
+            #    lane_yaw = 2*np.pi - abs(lane_yaw)
             lane_yaw_deg = np.rad2deg(lane_yaw)
 
             if (abs(lane_yaw_deg) > (180.0 / 4)):
