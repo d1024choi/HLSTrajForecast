@@ -113,6 +113,9 @@ class DatasetBuilder:
             coord_a = np.matmul(Rg2a, (ldict['coord'] - agent.trans_g).T).T
             diff = coord_a[min_idx] - coord_a[min_idx-1]
             lane_yaw = np.arctan2(diff[1], diff[0])
+            # TODO 
+            # if (lane_yaw < 0):
+            #    lane_yaw = 2*np.pi - abs(lane_yaw)            
             lane_yaw_deg = np.rad2deg(lane_yaw)
 
             if (abs(lane_yaw_deg) > (180.0 / 4)):
