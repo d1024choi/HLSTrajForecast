@@ -34,10 +34,10 @@ $ python argoverse_test.sh
 
 ## Citation
 ```
-@article{Choi,
-author = {D. Choi and K. Min},
-title = {Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting},
-book = {ECCV},
-year = 2022
+@InProceedings{Choi,
+ author = {D. Choi and K. Min},
+ title = {Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting},
+ booktitle = {Eur. Conf. Comput. Vis.},
+ year = {2022}
 }
 ```
