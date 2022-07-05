@@ -31,3 +31,13 @@ To test the pre-trained models, first download the pre-trained model parameters 
 $ python nuscenes_test.sh
 $ python argoverse_test.sh
 ```
+
+## Citation
+```
+@article{Choi,
+author = {D. Choi and K. Min},
+title = {Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting},
+book = {ECCV},
+year = 2022
+}
+```
