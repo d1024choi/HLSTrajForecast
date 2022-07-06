@@ -1,4 +1,4 @@
-# The official implementation of the paper "Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting".
+# The official implementation of "Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting".
 
 ## Setup
  
