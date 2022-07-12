@@ -32,6 +32,9 @@ $ python nuscenes_test.sh
 $ python argoverse_test.sh
 ```
 
+## Paper Download
+Arxiv : https://arxiv.org/abs/2207.04624
+
 ## Citation
 ```
 @InProceedings{Choi,
