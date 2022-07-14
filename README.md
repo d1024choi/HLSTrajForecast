@@ -26,7 +26,7 @@ $ sh argoverse_test.sh
 ```
 
 ## Test Pre-trained Models
-To test the pre-trained models, first download the pre-trained model parameters from https://drive.google.com/file/d/1kEI3jLueqVejvim_Moh4909yBFQG4jaF/view?usp=sharing. Next, copy them into 'saved_models' folder. Finally, edit the parameter 'exp_id' in 'nuscenes_test.sh' and argoverse_test.sh files to match the downloaded experiment id and run the followings.
+To test the pre-trained models, first download the pre-trained model parameters from https://drive.google.com/file/d/1kEI3jLueqVejvim_Moh4909yBFQG4jaF/view?usp=sharing. Next, copy them into 'saved_models' folder. Finally, edit the parameter 'exp_id' in 'nuscenes_test.sh' and 'argoverse_test.sh' files to match the downloaded experiment id and run the followings.
 ```sh
 $ python nuscenes_test.sh
 $ python argoverse_test.sh
