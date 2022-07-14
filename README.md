@@ -19,7 +19,7 @@ $ sh argoverse_train.sh
 **argumentparser.py** have a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings. You can find the descriptions in the file.
 
 
-To test the trained model, first edit the parameter 'exp_id' in 'nuscenes_test.sh' and argoverse_test.sh files to match your experiment id and run the followings.
+To test the trained model, first edit the parameter 'exp_id' in 'nuscenes_test.sh' and 'argoverse_test.sh' files to match your experiment id and run the followings.
 ```sh
 $ sh nuscenes_test.sh
 $ sh argoverse_test.sh
