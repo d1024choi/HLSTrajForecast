@@ -1,6 +1,10 @@
 # The official implementation of "Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting" accepted to ECCV22.
 ![](GIF/HLS.gif)
 
+## Note
+
++ [22/08/01] The distributed training activated by the argument "args.multi_gpu" is deprecated. Please ignore it when training.
+
 ## Setup
  
 + **Dataset** : Create folders 'preprocessed_dataset/2sec_6sec' and 'preprocessed_dataset/2sec_3sec' in 
