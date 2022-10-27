@@ -1,4 +1,4 @@
-# The official implementation of "Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting" accepted to ECCV22.
+# The official implementation of "Hierarchical Latent Structure for Multi-Modal Vehicle Trajectory Forecasting" presented in ECCV22.
 ![](GIF/HLS.gif)
 
 ## Note
